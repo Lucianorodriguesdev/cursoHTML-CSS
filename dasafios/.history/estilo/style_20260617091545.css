@@ -1,0 +1,16 @@
+@charset_"UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+h1{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+h1> 
