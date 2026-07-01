@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        .cnome{ 
+            background-color: rgba(0, 0, 255, 0.386);
+        }
+        .cidade{ 
+            background-color: rgba(0, 255, 68, 0.525);
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome"> 
+            <col class="cidade" span="2">
+             
+            <!--permite que voce coloque um "col" relativo ao tanto de coluna que possui,
+            mas tambem permite que coloque "span="quantos quiser" para que a configuraçao
+            de estilo se estenda a quantos grupos quiser-->
+
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>23</td>
+            <td>feminino</td>
+        </tr>
+        <tr>
+            <td>Isabel</td>
+            <td>54</td>
+            <td>feminino</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>25</td>
+            <td>masculino</td>
+        </tr>
+        
+        
+    </table>
+    
+</body>
+</html>

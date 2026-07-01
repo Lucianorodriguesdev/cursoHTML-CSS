@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset_"UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 :root{
@@ -57,13 +57,13 @@ section.imagem{
     background-attachment: fixed;
 }
 section#img01{
-    background-image: url('../d012/background001.jpg');
+    background-image: url('/d012/background001.jpg');
     color: white;
     background-position: right center;
    
 }
 section#img02{
-background-image: url('../d012/background002.jpg');
+background-image: url('/d012/background002.jpg');
  
 }
 section.imagem>p{

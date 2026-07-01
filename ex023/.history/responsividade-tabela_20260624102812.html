@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        tr:nth-child(2n){
+            background-color: gray;
+        }        
+        caption{
+             border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            background-color: gray;
+            color: white;
+        }
+        .container{ 
+            
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption>Tabela de vendas</caption>
+            <thead>
+                <tr>
+                    <th>Poduto</th>
+                    <th>janeiro</th>
+                    <th>fevereiro</th>
+                    <th>março</th>
+                    <th>abril</th>
+                    <th>maio</th>
+                    <th>junho</th>
+                    <th>julho</th>
+                    <th>agosto</th>
+                    <th>setembro</th>
+                    <th>outubro</th>
+                    <th>novembro</th>
+                    <th>dezembro</th>
+                </tr>
+        
+            </thead>
+            <tbody>
+                <tr>
+                    <th>TV</th>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                </tr>
+                <tr>
+                   <th>pc</th>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                </tr>
+                <tr>
+                   <th>notebook</th>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                    <td>03</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
