@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+  <style>
+    iframe{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+    / *
+    SEGURANÇa com iframe 
+
+    para deixar o iframe mais seguro para que o link dentro do iframe nao aceite envio de dados 
+    vamos colocar "sandbox=sandbox allow-forms allow-scripts allow-same-origin" 
+
+    quando colocamos sandbox no sandbox, ele bloqueia todas funçoes que possuem dentro do iframe
+
+    quando colocamos allow-forms dentro do sandbox, permitimos que usemos o formulario
+    quando colocamos allow-scripts dentro do sandbox, permitimos que usemos o sripts 
+    quando colocamos allow-same-origin dentro do sandbox, permitimos que usemos o arquivos de mesma origem
+    
+    referrerpolicy="no-referrer
+    
+    */ 
+
+       <h1>
+        Nessa aula trabalharemos com iframe
+    </h1>  
+    <iframe src="pag005.html" frameborder="0" sandbox="sandbox allow-forms allow-scripts allow-same-origin" referrerpolicy="no-referrer"></iframe>
+</body>
+</html>
