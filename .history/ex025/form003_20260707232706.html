@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+   <h1>Teste de formulario</h1> 
+   <form action="formulario.php" autocomplete="on">
+       <label for="inome" >Nome </label>
+        <input type="text" name="nome" id="inome" required autocomplete="username" size="10" placeholder="nome completo">
+<br>
+        <label for="imedia" >Média</label>
+        <input type="number" name="media" id="imedia" required min="0" max="10" value="5" step="0.5">
+<br>
+        <label for="iperiodo">Periodo letivo</label>
+        <input type="month" name="periodo" id="iperiodo">
+<br>
+        <label for="idia"></label>
+        <input type="date" name="dia" id="idia">
+   </form>
+</body>
+</html>

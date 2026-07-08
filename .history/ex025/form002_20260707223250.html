@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="formulario.php" method="post" autocomplete="on">
+
+        <!--o minlegth serve para dizer quantos caracteres minimos tera em cada input
+        e maxlegth o oposto
+        
+        se colocarmos size no input ele ira ditar ate quantos caracteres sera o tamanho da caixa
+        -->
+
+        <p>
+            <label for="iusuario"></label>
+            <input type="text" name="usuario" id="iusuario" required minlength="5" size="5" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha"></label>
+            <input type="password" name="senha" id="isenha" required size="8" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
